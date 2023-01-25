@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "secrets2": {
+      "type": "secrets.user"
+    },
+    "postgresql2": {
+      "containerPorts": "5432:5432",
+      "secretStore": "LocalSecretsFile",
+      "containerName": "postgresql",
+      "containerImage": "postgres",
+      "type": "postgresql.container",
+      "connectionId": "I7.20P4swd"
+    },
+    "postgresql1": {
+      "containerPorts": "5432:5432",
+      "secretStore": "LocalSecretsFile",
+      "containerName": "postgresql",
+      "containerImage": "postgres",
+      "resourceId": null,
+      "type": "postgresql.container",
+      "connectionId": "ConnectionStrings:PostgreSQLConnection"
+    }
+  }
+}

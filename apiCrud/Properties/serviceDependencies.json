@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "secrets2": {
+      "type": "secrets"
+    },
+    "postgresql2": {
+      "type": "postgresql",
+      "connectionId": "I7.20P4swd"
+    },
+    "postgresql1": {
+      "type": "postgresql",
+      "connectionId": "ConnectionStrings:PostgreSQLConnection"
+    }
+  }
+}
